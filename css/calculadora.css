@@ -1,0 +1,39 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.calculator {
+  border: 1px solid #ccc;
+  width: 400px;
+  margin: 50px auto;
+}
+
+#calculator-screen {
+  color: black;
+  text-align: right;
+  padding: 5px;
+  font-size: 4rem;
+  border: 1px solid lightgray;
+  margin: 20px;
+}
+
+button {
+  height: 60px;
+  font-size: 2rem !important;
+}
+
+.btn {
+  border: 1px solid lightgray;
+}
+
+.buttons-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+}
